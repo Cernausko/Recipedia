@@ -1,0 +1,39 @@
+.recipes {
+    margin-top: 100px;
+
+    &__title {
+        margin-bottom: 70px;
+    }
+
+    &__list {
+        flex-wrap: wrap;
+        gap: 57px;
+        justify-content: center;
+    }
+
+    h3 {
+        font-size: 46px;
+        font-weight: 600;
+    }
+
+    p {
+        color: #7F7D7D;
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .click{
+        display: flex;
+        padding: 13px 40px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        background: #F79F1A;
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.5px;
+    }
+}

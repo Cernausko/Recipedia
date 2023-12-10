@@ -1,0 +1,49 @@
+.main {
+    h2 {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 80px;
+        max-width: 610px;
+        margin-bottom: 37px;
+        margin-top: 60px;
+    }
+    
+    p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        max-width: 424px;
+        margin-bottom: 61px;
+    }
+
+    span {
+        color: #F79F1A;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+    }
+
+    .click{
+        display: flex;
+        width: 249px;
+        padding: 25px 40px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 20px;
+        background: #F79F1A;
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.5px;
+    }
+    
+    .right-side {
+        width: 100%;
+        max-width: 720px;
+    }
+}
+

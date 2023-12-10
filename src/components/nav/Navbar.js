@@ -7,34 +7,34 @@ import { ReactComponent as Person } from '../../svg/person.svg';
 const Navbar =()=>{
     return(
 
-        <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <div class="d-flex align-items-center justify-content-start Logo mx-2">
+        <nav className='navbar navbar-expand-lg'>
+        <div className='container'>
+          <div className='d-flex align-items-center justify-content-start Logo mx-2'>
               <Logo/>
-              <a class="navbar-brand" href="#">Recipedia</a>
+              <a className='navbar-brand' href='#'>Recipedia</a>
           </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+          <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
+              <span className='navbar-toggler-icon'></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-              <ul class="navbar-nav">
-                  <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">Home</a>
+          <div className='collapse navbar-collapse justify-content-center' id='navbarNav'>
+              <ul className='navbar-nav'>
+                  <li className='nav-item'>
+                      <a className='nav-link' aria-current='page' href='#'>Home</a>
                   </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Recipe</a>
+                  <li className='nav-item'>
+                      <a className='nav-link' href='#'>Recipe</a>
                   </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Community</a>
+                  <li className='nav-item'>
+                      <a className='nav-link' href='#'>Community</a>
                   </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">About Us</a>
+                  <li className='nav-item'>
+                      <a className='nav-link' href='#'>About Us</a>
                   </li>
               </ul>
           </div>
-          <div class="d-flex align-items-center justify-content-end UserSearch mx-5">
+          <div className='d-flex align-items-center justify-content-end UserSearch mx-5'>
               <Search/>
-              <Person class="mx-3"/>
+              <Person className='mx-3'/>
           </div>
         </div>
         </nav>
