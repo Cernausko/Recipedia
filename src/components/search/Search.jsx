@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import './Search.scss'
-export default function RecipeSearch() {
+export default function Search() {
 	const [suggestions, setSuggestions] = useState([]);
 	const navigate = useNavigate();
 	async function fetchRecipes(e) {
